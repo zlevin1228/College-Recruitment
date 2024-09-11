@@ -1,0 +1,55 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    background-color:  white;
+    color: #fff;
+    text-align: center;
+    height: 125px;
+}
+
+.imgfix {
+    min-width: 10px;
+    height: 125px;
+  }
+
+nav {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#parallax {
+    /* The image used */
+    background-image: url("imgs/lawn.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+
+* {
+    box-sizing: inherit;
+}
+
+.opening {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #232D4B;
+}
+
+footer {
+    background-color: #232D4B;
+    color: #fff;
+    text-align: center;
+}
