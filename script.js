@@ -10,5 +10,6 @@ function search_majors() {
         else {
             x[i].style.display = "list-item";
         }
+
     }
 }
