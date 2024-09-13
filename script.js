@@ -1,3 +1,4 @@
+// code from geeks for geeks
 function search_majors() {
     let input = document.getElementById('searchbar').value
     input = input.toLowerCase();
