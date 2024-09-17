@@ -171,7 +171,7 @@ li {
   }
   
   .slider .slide:nth-child(2) {
-    background-image: url('imgs/apply2.webp');
+    background-image: url('imgs/apply5.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -179,7 +179,7 @@ li {
   }
     
   .slider .slide:nth-child(3) {
-    background-image: url('https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+    background-image: url('imgs/apply3.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -187,7 +187,7 @@ li {
   }
     
   .slider .slide:nth-child(4) {
-    background-image: url('https://images.unsplash.com/photo-1517430554953-a5ba4678fe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+    background-image: url('imgs/apply4.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -195,7 +195,7 @@ li {
   }
   
   .slider .slide:nth-child(5) {
-    background-image: url('https://images.unsplash.com/photo-1583161178154-c362b3459d29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+    background-image: url('imgs/apply2.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -216,3 +216,143 @@ li {
       animation-timing-function: ease;
     }
   }
+
+  .borderfix {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+  #parallax4 {
+    /* The image used */
+    background-image: url("imgs/eap.jpg");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .slider {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  #parallax5 {
+    /* The image used */
+    background-image: url("imgs/dbrickashawferguson.jpg");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .slider {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  #parallax6 {
+    /* The image used */
+    background-image: url("imgs/sarahdrew.webp");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .slider {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #232D4B;
+  z-index: -1;
+  border: 2px solid #E57200;
+  border-radius: 2px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  z-index: -1;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #232D4B;
+  z-index: -1;
+  border: 2px solid #E57200;
+  border-radius: 2px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: -1;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: white;
+  z-index: -1;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  color: black;
+  z-index: -1;
+  font-size: 20px;
+}
+
+/* Add a blue color to the author */
+.author {color: white; z-index: -1;}
+
+.headersect {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+}
