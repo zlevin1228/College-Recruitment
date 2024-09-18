@@ -100,8 +100,6 @@ function generateTeamCards() {
   });   
 }
 
-window.onload = generateTeamCards();
-
 // CODE FOR QUOTE SLIDESHOW
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -133,3 +131,10 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+window.onload = function (event) {
+  setInterval(function () {
+    plusSlides(1);
+  }, 7500);
+  generateTeamCards();
+};
