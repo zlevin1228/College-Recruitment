@@ -356,3 +356,20 @@ q {
   font-weight: 250;
   font-style: normal;
 }
+
+#parallax7 {
+  /* The image used */
+  background-image: url("imgs/sportsbg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-left: -10px;
+  margin-right: -10px;
+}
