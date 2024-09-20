@@ -19,6 +19,12 @@ nav {
     border-bottom: 1px solid grey;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
 #parallax {
     /* The image used */
     background-image: url("imgs/lawn.jpg");
