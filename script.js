@@ -29,7 +29,7 @@ const teamMembers = [
     {
       name: "D'Brickashaw Ferguson",
       age: 40,
-      birth: "December 10, 1983",
+      birth: "December 10, 1983-Present Day",
       profession: "NFL Offensive Tackle",
       position: "Winger",
       biography:
@@ -39,7 +39,7 @@ const teamMembers = [
     {
       name: "Sarah Drew",
       age: 43,
-      birth: "October 1, 1980",
+      birth: "October 1, 1980-Present Day",
       profession: "Actress",
       position: "Defenseman",
       biography:
@@ -83,7 +83,7 @@ function generateTeamCards() {
            <p><strong>Age: </strong>${member.age}</p> 
           </div>
           <div class = "card-body py-0" style="background-color:${backgroundColor};">
-            <p><strong>Birth (and Death): </strong>${member.birth}</p> 
+            <p><strong>Lifetime: </strong>${member.birth}</p> 
           </div>
           <div class = "card-body py-0" style="background-color:${backgroundColor};">
             <p><strong>Profession: </strong>${member.profession}</p> 
